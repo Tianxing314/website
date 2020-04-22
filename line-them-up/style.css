@@ -1,0 +1,153 @@
+#game {
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	background-color: #ffde69;
+	left: 50%;
+	margin-left: -200px;
+	border-radius: 10px;
+}
+
+#replay {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background-color: #ffde69;
+	left: 50%;
+	margin-left: -50px;
+	color: white;
+	font-family: centuryGothic Helvatica;
+	font-size: 200%;
+	top: 400px;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.selector {
+	visibility: hidden;
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	z-index: 1;
+	left: 50%;
+	margin-left: 0;
+	top: 0;
+}
+
+button {
+	position: absolute;
+	left: 50%;
+	margin-left: -20px;
+	top: 380px;
+}
+
+.piece {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 2px solid gray;
+	z-index: 2;
+}
+
+.w {
+	background-color: #fffaeb;
+}
+
+.b {
+	background-color: black; 
+}
+
+.t {
+	border: none;
+}
+
+
+#w1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -142px;
+	top: 62px;
+}
+
+#w2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -38px;
+	top: 62px;
+}
+
+#w3 {
+	position: absolute;
+	left: 50%;
+	margin-left: 66px;
+	top: 62px;
+}
+
+#b1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -142px;
+	top: 272px;
+}
+
+#b2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -38px;
+	top: 272px;
+}
+
+#b3 {
+	position: absolute;
+	left: 50%;
+	margin-left: 66px;
+	top: 272px;
+}
+
+#t1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -142px;
+	top: 168px;
+}
+
+#t2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -38px;
+	top: 168px;
+}
+
+#t3 {
+	position: absolute;
+	left: 50%;
+	margin-left: 66px;
+	top: 168px;
+}
+
+#endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205,133,63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -98px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+  z-index:3;
+
+}
+
+#board {
+	border: 2.5px solid #b39a46;
+	position: absolute;
+	left: 50%;
+	margin-left: -104px;
+	top: 101px;
+}
