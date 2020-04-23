@@ -97,15 +97,15 @@
 }
 
 .portfolio-blog-card-full-bg {
-  background: url(images/example-blog03.jpg) center / cover;
+  background: url(images/gallery/quebec-2.png) center / cover;
 }
 
 .portfolio-blog-card-event-bg {
-  background: url(images/example-blog05.jpg) center / cover;
+  background: url(images/gallery/quebec-3.png) center / cover;
 }
 
 .portfolio-blog-card-strip-bg {
-  background: url(images/example-blog06.jpg) center / cover;
+  background: url(images/gallery/quebec-1.png) center / cover;
 }
 
 .portfolio-blog-card-compact .mdl-card__title {
@@ -181,6 +181,8 @@ footer {
   width: 100%;
 }
 
+/*prioritized customizations below*/
+
 .mdl-layout__drawer-button {
   display: block;
   position: absolute;
@@ -219,4 +221,8 @@ footer {
       .mdl-layout--fixed-drawer > .mdl-layout__drawer-button,
       .mdl-layout--no-drawer-button .mdl-layout__drawer-button {
         display: none; } }
+
+.mdl-mini-footer__right-section {
+  margin-right: 10px;
+}
 
