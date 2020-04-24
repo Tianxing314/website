@@ -231,6 +231,10 @@ footer {
   opacity: 0.5;
 }
 
-.can-hover: hover {
+.can-hover:hover {
   opacity: 1.0;
+}
+
+* {
+  transition: all 0.4s;
 }
