@@ -226,3 +226,11 @@ footer {
   margin-right: 10px;
 }
 
+.can-hover {
+  /*border-radius: 5px*/
+  opacity: 0.5;
+}
+
+.can-hover: hover {
+  opacity: 1.0;
+}
