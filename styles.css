@@ -1,7 +1,7 @@
 
 .portfolio-header {
   position: relative;
-  background-image: url(images/white.png);
+  background-color: rgb(255, 255, 255)
 }
 
 
@@ -174,7 +174,7 @@ img.article-image {
 }
 
 footer {
-  background-image: url(images/dark-grey.png);
+  background-color: rgb(66, 66, 66)
   background-size: cover;
 /*  clear: both;*/
   height: 50px;
